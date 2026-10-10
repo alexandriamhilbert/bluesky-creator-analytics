@@ -1,5 +1,5 @@
 Markdown
-# 📊 Bluesky Creator Analytics & Engagement Pipeline
+# Bluesky Creator Analytics & Engagement Pipeline
 
 A lightweight, production-grade ETL pipeline and relational data model designed to track, store, and analyze creator engagement metrics on the decentralized [Bluesky (AT Protocol)](https://bsky.app) network.
 
@@ -7,7 +7,7 @@ Built with **Python**, **PostgreSQL** (hosted via **Supabase**), and **SQL Windo
 
 ---
 
-## 🏗️ Architecture Overview
+## Architecture Overview
 
            ┌──────────────────────────────┐
            │   Bluesky AT Protocol API    │
@@ -32,7 +32,7 @@ Built with **Python**, **PostgreSQL** (hosted via **Supabase**), and **SQL Windo
 
 ---
 
-## ✨ Key Features
+## Key Features
 
 * **Zero API Key Ingestion:** Leverages Bluesky's open AT Protocol XRPC public endpoints (`app.bsky.actor.getProfile` and `app.bsky.feed.getAuthorFeed`).
 * **Idempotent Upserts:** Employs PostgreSQL `ON CONFLICT` constraints to ensure safe, repeatable ingestion runs without duplicate records.
@@ -41,7 +41,7 @@ Built with **Python**, **PostgreSQL** (hosted via **Supabase**), and **SQL Windo
 
 ---
 
-## 📁 Repository Structure
+## Repository Structure
 
 ```text
 bluesky-creator-analytics/
